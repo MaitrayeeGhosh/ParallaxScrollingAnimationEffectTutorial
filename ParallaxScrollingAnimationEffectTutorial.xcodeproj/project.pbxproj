@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		626C1EB01BA9C5E600784555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C1EAD1BA9C5E600784555 /* AppDelegate.m */; };
+		626C1EB11BA9C5E600784555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C1EAF1BA9C5E600784555 /* ViewController.m */; };
 		6278A4271BA9769A009BDE65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A4261BA9769A009BDE65 /* main.m */; };
-		6278A42A1BA9769A009BDE65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A4291BA9769A009BDE65 /* AppDelegate.m */; };
-		6278A42D1BA9769A009BDE65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A42C1BA9769A009BDE65 /* ViewController.m */; };
 		6278A4301BA9769A009BDE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278A42E1BA9769A009BDE65 /* Main.storyboard */; };
 		6278A4321BA9769A009BDE65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6278A4311BA9769A009BDE65 /* Images.xcassets */; };
 		6278A4351BA9769A009BDE65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6278A4331BA9769A009BDE65 /* LaunchScreen.xib */; };
 		6278A4411BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A4401BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m */; };
+		6278A44B1BA9779E009BDE65 /* image1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6278A44A1BA9779E009BDE65 /* image1.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		626C1EAC1BA9C5E600784555 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		626C1EAD1BA9C5E600784555 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		626C1EAE1BA9C5E600784555 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		626C1EAF1BA9C5E600784555 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6278A4211BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxScrollingAnimationEffectTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6278A4251BA9769A009BDE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6278A4261BA9769A009BDE65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6278A4281BA9769A009BDE65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6278A4291BA9769A009BDE65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6278A42B1BA9769A009BDE65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6278A42C1BA9769A009BDE65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6278A42F1BA9769A009BDE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6278A4311BA9769A009BDE65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6278A4341BA9769A009BDE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6278A43A1BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxScrollingAnimationEffectTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6278A43F1BA9769A009BDE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6278A4401BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxScrollingAnimationEffectTutorialTests.m; sourceTree = "<group>"; };
+		6278A44A1BA9779E009BDE65 /* image1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		626C1EAB1BA9C5E600784555 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				626C1EAC1BA9C5E600784555 /* AppDelegate.h */,
+				626C1EAD1BA9C5E600784555 /* AppDelegate.m */,
+				626C1EAE1BA9C5E600784555 /* ViewController.h */,
+				626C1EAF1BA9C5E600784555 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6278A4181BA9769A009BDE65 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +94,9 @@
 		6278A4231BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				6278A4281BA9769A009BDE65 /* AppDelegate.h */,
-				6278A4291BA9769A009BDE65 /* AppDelegate.m */,
-				6278A42B1BA9769A009BDE65 /* ViewController.h */,
-				6278A42C1BA9769A009BDE65 /* ViewController.m */,
+				626C1EAB1BA9C5E600784555 /* Classes */,
 				6278A42E1BA9769A009BDE65 /* Main.storyboard */,
+				6278A44A1BA9779E009BDE65 /* image1.JPG */,
 				6278A4311BA9769A009BDE65 /* Images.xcassets */,
 				6278A4331BA9769A009BDE65 /* LaunchScreen.xib */,
 				6278A4241BA9769A009BDE65 /* Supporting Files */,
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6278A4301BA9769A009BDE65 /* Main.storyboard in Resources */,
+				6278A44B1BA9779E009BDE65 /* image1.JPG in Resources */,
 				6278A4351BA9769A009BDE65 /* LaunchScreen.xib in Resources */,
 				6278A4321BA9769A009BDE65 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6278A42D1BA9769A009BDE65 /* ViewController.m in Sources */,
-				6278A42A1BA9769A009BDE65 /* AppDelegate.m in Sources */,
+				626C1EB11BA9C5E600784555 /* ViewController.m in Sources */,
+				626C1EB01BA9C5E600784555 /* AppDelegate.m in Sources */,
 				6278A4271BA9769A009BDE65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				6278A4461BA9769A009BDE65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6278A4471BA9769A009BDE65 /* Build configuration list for PBXNativeTarget "ParallaxScrollingAnimationEffectTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				6278A4491BA9769A009BDE65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

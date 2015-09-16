@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6278A4271BA9769A009BDE65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A4261BA9769A009BDE65 /* main.m */; };
+		6278A42A1BA9769A009BDE65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A4291BA9769A009BDE65 /* AppDelegate.m */; };
+		6278A42D1BA9769A009BDE65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A42C1BA9769A009BDE65 /* ViewController.m */; };
+		6278A4301BA9769A009BDE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278A42E1BA9769A009BDE65 /* Main.storyboard */; };
+		6278A4321BA9769A009BDE65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6278A4311BA9769A009BDE65 /* Images.xcassets */; };
+		6278A4351BA9769A009BDE65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6278A4331BA9769A009BDE65 /* LaunchScreen.xib */; };
+		6278A4411BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278A4401BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6278A43B1BA9769A009BDE65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6278A4191BA9769A009BDE65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6278A4201BA9769A009BDE65;
+			remoteInfo = ParallaxScrollingAnimationEffectTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6278A4211BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxScrollingAnimationEffectTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6278A4251BA9769A009BDE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6278A4261BA9769A009BDE65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6278A4281BA9769A009BDE65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6278A4291BA9769A009BDE65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6278A42B1BA9769A009BDE65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6278A42C1BA9769A009BDE65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6278A42F1BA9769A009BDE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6278A4311BA9769A009BDE65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6278A4341BA9769A009BDE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6278A43A1BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxScrollingAnimationEffectTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6278A43F1BA9769A009BDE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6278A4401BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxScrollingAnimationEffectTutorialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6278A41E1BA9769A009BDE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278A4371BA9769A009BDE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6278A4181BA9769A009BDE65 = {
+			isa = PBXGroup;
+			children = (
+				6278A4231BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial */,
+				6278A43D1BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests */,
+				6278A4221BA9769A009BDE65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6278A4221BA9769A009BDE65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6278A4211BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial.app */,
+				6278A43A1BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6278A4231BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				6278A4281BA9769A009BDE65 /* AppDelegate.h */,
+				6278A4291BA9769A009BDE65 /* AppDelegate.m */,
+				6278A42B1BA9769A009BDE65 /* ViewController.h */,
+				6278A42C1BA9769A009BDE65 /* ViewController.m */,
+				6278A42E1BA9769A009BDE65 /* Main.storyboard */,
+				6278A4311BA9769A009BDE65 /* Images.xcassets */,
+				6278A4331BA9769A009BDE65 /* LaunchScreen.xib */,
+				6278A4241BA9769A009BDE65 /* Supporting Files */,
+			);
+			path = ParallaxScrollingAnimationEffectTutorial;
+			sourceTree = "<group>";
+		};
+		6278A4241BA9769A009BDE65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6278A4251BA9769A009BDE65 /* Info.plist */,
+				6278A4261BA9769A009BDE65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6278A43D1BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				6278A4401BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m */,
+				6278A43E1BA9769A009BDE65 /* Supporting Files */,
+			);
+			path = ParallaxScrollingAnimationEffectTutorialTests;
+			sourceTree = "<group>";
+		};
+		6278A43E1BA9769A009BDE65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6278A43F1BA9769A009BDE65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6278A4201BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6278A4441BA9769A009BDE65 /* Build configuration list for PBXNativeTarget "ParallaxScrollingAnimationEffectTutorial" */;
+			buildPhases = (
+				6278A41D1BA9769A009BDE65 /* Sources */,
+				6278A41E1BA9769A009BDE65 /* Frameworks */,
+				6278A41F1BA9769A009BDE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxScrollingAnimationEffectTutorial;
+			productName = ParallaxScrollingAnimationEffectTutorial;
+			productReference = 6278A4211BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6278A4391BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6278A4471BA9769A009BDE65 /* Build configuration list for PBXNativeTarget "ParallaxScrollingAnimationEffectTutorialTests" */;
+			buildPhases = (
+				6278A4361BA9769A009BDE65 /* Sources */,
+				6278A4371BA9769A009BDE65 /* Frameworks */,
+				6278A4381BA9769A009BDE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6278A43C1BA9769A009BDE65 /* PBXTargetDependency */,
+			);
+			name = ParallaxScrollingAnimationEffectTutorialTests;
+			productName = ParallaxScrollingAnimationEffectTutorialTests;
+			productReference = 6278A43A1BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6278A4191BA9769A009BDE65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Maitrayee Ghosh";
+				TargetAttributes = {
+					6278A4201BA9769A009BDE65 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6278A4391BA9769A009BDE65 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6278A4201BA9769A009BDE65;
+					};
+				};
+			};
+			buildConfigurationList = 6278A41C1BA9769A009BDE65 /* Build configuration list for PBXProject "ParallaxScrollingAnimationEffectTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6278A4181BA9769A009BDE65;
+			productRefGroup = 6278A4221BA9769A009BDE65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6278A4201BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial */,
+				6278A4391BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6278A41F1BA9769A009BDE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6278A4301BA9769A009BDE65 /* Main.storyboard in Resources */,
+				6278A4351BA9769A009BDE65 /* LaunchScreen.xib in Resources */,
+				6278A4321BA9769A009BDE65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278A4381BA9769A009BDE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6278A41D1BA9769A009BDE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6278A42D1BA9769A009BDE65 /* ViewController.m in Sources */,
+				6278A42A1BA9769A009BDE65 /* AppDelegate.m in Sources */,
+				6278A4271BA9769A009BDE65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278A4361BA9769A009BDE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6278A4411BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6278A43C1BA9769A009BDE65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6278A4201BA9769A009BDE65 /* ParallaxScrollingAnimationEffectTutorial */;
+			targetProxy = 6278A43B1BA9769A009BDE65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6278A42E1BA9769A009BDE65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6278A42F1BA9769A009BDE65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6278A4331BA9769A009BDE65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6278A4341BA9769A009BDE65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6278A4421BA9769A009BDE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6278A4431BA9769A009BDE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6278A4451BA9769A009BDE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParallaxScrollingAnimationEffectTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6278A4461BA9769A009BDE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParallaxScrollingAnimationEffectTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6278A4481BA9769A009BDE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParallaxScrollingAnimationEffectTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaxScrollingAnimationEffectTutorial.app/ParallaxScrollingAnimationEffectTutorial";
+			};
+			name = Debug;
+		};
+		6278A4491BA9769A009BDE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParallaxScrollingAnimationEffectTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaxScrollingAnimationEffectTutorial.app/ParallaxScrollingAnimationEffectTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6278A41C1BA9769A009BDE65 /* Build configuration list for PBXProject "ParallaxScrollingAnimationEffectTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278A4421BA9769A009BDE65 /* Debug */,
+				6278A4431BA9769A009BDE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6278A4441BA9769A009BDE65 /* Build configuration list for PBXNativeTarget "ParallaxScrollingAnimationEffectTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278A4451BA9769A009BDE65 /* Debug */,
+				6278A4461BA9769A009BDE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6278A4471BA9769A009BDE65 /* Build configuration list for PBXNativeTarget "ParallaxScrollingAnimationEffectTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278A4481BA9769A009BDE65 /* Debug */,
+				6278A4491BA9769A009BDE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6278A4191BA9769A009BDE65 /* Project object */;
+}
